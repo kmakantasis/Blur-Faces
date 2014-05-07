@@ -5,7 +5,7 @@ import numpy as np
 import kmDetection   
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('/home/kostas/PythonProjects/BlurFaces/DSC_0239.MOV')
 ret, frame = cap.read()
 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
